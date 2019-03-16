@@ -10,3 +10,5 @@ function nameToAttributes(drivers) {
     last = person.split(" ")[1];
     return {firstName: first, lastName: last};
   }
+
+}
