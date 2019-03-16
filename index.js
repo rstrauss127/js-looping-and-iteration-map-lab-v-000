@@ -1,1 +1,5 @@
-// Code your solution in this file.
+function lowerCaseDrivers(drivers) {
+  const lowercasedrivers = drivers.map(function (driver) {
+    return String.assign({}, driver, driver.toLowerCase());
+  });
+}
